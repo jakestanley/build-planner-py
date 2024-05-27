@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "build-planner"
+version = "0.1.0"
+description = "Wizard to design build guides for role playing games"
+authors = ["Jacob Stanley"]
+license = "LGPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
